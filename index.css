@@ -14,9 +14,9 @@ body {
   background-color: coral;
   color: cornsilk;
   text-align: center;
-  border-radius: 25%;
+  border-radius: 50px;
   border: solid 2pt cornsilk;
-  padding: 1em;
+  padding: 0.5em;
 }
 #name {
   font-size: 40pt;
