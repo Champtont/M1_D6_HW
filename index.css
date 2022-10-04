@@ -1,0 +1,26 @@
+html {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightblue;
+}
+#bigBox {
+  width: 40%;
+  background-color: coral;
+  color: cornsilk;
+  text-align: center;
+  border-radius: 25%;
+  border: solid 2pt cornsilk;
+  padding: 1em;
+}
+#name {
+  font-size: 40pt;
+}
+#year {
+  font-style: italic;
+}
