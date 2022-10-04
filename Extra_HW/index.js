@@ -29,6 +29,6 @@ let remainingWater = water - absorbedWater - reservedWater;
 let remainingSalt = salt - absorbedSalt;
 let drainedPasta = cookedPasta - remainingWater - remainingSalt;
 let carbSauce = reservedWater + guancialeFat;
-let completedCarb =
+let carbonara =
   carbSauce + cookedPasta + firstBowl + newBlackPepper + guanciale;
-console.log("The weight of the completed dish is", completedCarb);
+console.log("The weight of the completed dish is", carbonara);
