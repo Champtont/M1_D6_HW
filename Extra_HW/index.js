@@ -1,4 +1,5 @@
 //first: list ingredients
+console.log("---gathering ingredients!---");
 
 let spaghetti = 400;
 let guanciale = 250;
@@ -9,6 +10,8 @@ let water = 3000;
 let salt = 0.5;
 
 //second: instructions
+
+console.log("---Cooking things up!---");
 
 let firstBowl = freshYolks + agedCheese;
 let smallAmountPep = blackPepper - 3;
@@ -28,4 +31,4 @@ let drainedPasta = cookedPasta - remainingWater - remainingSalt;
 let carbSauce = reservedWater + guancialeFat;
 let completedCarb =
   carbSauce + cookedPasta + firstBowl + newBlackPepper + guanciale;
-console.log(completedCarb);
+console.log("The weight of the completed dish is", completedCarb);
