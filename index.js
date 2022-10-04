@@ -7,7 +7,10 @@ let myAge = 34;
 let currentYear = 2022;
 let myBirthYear = currentYear - myAge;
 console.log("I was born in", myBirthYear);
-document.getElementById("name").innerHTML =
+
+//The folowing section was written to run on the browser... It can not run inside of node. Therefore, it is commented out
+
+/*document.getElementById("name").innerHTML =
   "Hello, my name is: " + fullName + "!";
 document.getElementById("year").innerHTML =
-  "I was born in " + myBirthYear + ".";
+  "I was born in " + myBirthYear + ".";*/
